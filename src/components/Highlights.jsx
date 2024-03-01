@@ -5,7 +5,7 @@ import JavaSX from "./JavaSX";
 
 function Highlights (){
     return(
-        <div>
+        <div className="gallery">
             <Declarative></Declarative>
             <JSComponents></JSComponents>
             <SingleWay></SingleWay>

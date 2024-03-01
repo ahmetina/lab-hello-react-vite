@@ -17,17 +17,19 @@ function App() {
 
         </div>
 
-        <div>
+        <div className = "container">
 
-        <h1>Say hello to ReactJS</h1>
+          <h1>Say hello to <br></br> ReactJS</h1>
 
-        <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
+          <h3>You will learn how to use <br></br> the most popular frontend library,<br></br> and become a super Ninja developer.</h3>
         
-        <WhiteButton></WhiteButton>
+        <div>
+          <WhiteButton></WhiteButton>
+        </div>
 
         </div>
 
-        <div>
+        <div className='gallery'>
           <Highlights></Highlights>
         </div>
 
